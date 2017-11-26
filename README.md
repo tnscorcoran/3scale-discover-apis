@@ -59,8 +59,8 @@ https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
 
 We only have 1 entry in our catalog, our Members API, so searching is superfluous. However if we had multiple APIs, as shown in the example catalog in the Introduction above, we could search on the keywords we entered in that section of apis.json.
 
-
-
+## Conclusion
+Congratulations, you’ve created your first API Catalog and deployed it on the 3scale Developer Portal.
 
 
 
