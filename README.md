@@ -7,5 +7,5 @@ API search and discovery can be a key requirement for organizations exposing API
 In this article, we highlight and demonstrate a solution that can be deployed on the 3scale Developer Portal – to allow such search and discovery. The template are available at the [3scale Discover APIs](https://github.com/3scale/3scale-discover-APIs) Github repository. This community based solution was developed and is mainly contributed to by 3scale API evangelist, Nicolas Grenie.
 
 We walk through creating a working example whose end result is a searchable catalog that resembles the following - though for simplicity we just add the member element:
-
+![1-api-catalog](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/_screenshots/1-api-catalog.png)  
 
