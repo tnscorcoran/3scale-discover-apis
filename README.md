@@ -42,6 +42,8 @@ https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
     ![apilist](https://access.redhat.com/sites/default/files/images/5-apilist.png)
   * apis.json. Fill in as follows (note empty Layout):
     ![apis.json](https://access.redhat.com/sites/default/files/images/7-1-apis.json_.png)
+  * This contains the details for each catalog entry - normally an API. The highlighted area should be repeated per API:
+    ![apis.json-json](https://access.redhat.com/sites/default/files/images/7-2-apis.json-json-view.png)
 
 
 
