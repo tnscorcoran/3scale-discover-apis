@@ -1,0 +1,85 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Members DEMO API",
+    "description": "Members DEMO API",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "name": "The Members DEMO Team",
+      "email": "members@3scale.net",
+      "url": "http://members.3scale.net"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "http://github.com/3scale/members/LICENSE-MIT"
+    }
+  },
+  "host": "apicast-3scalegateway.52.255.57.199.nip.io",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/hr/userservice/user/{id}": {
+      "get": {
+        "description": "Returns a new Member",
+        "operationId": "Returns a new Member",
+        "parameters": [
+          {
+            "name": "user_key",
+            "in": "query",
+            "description": "user_key",
+            "required": true,
+            "type": "string",
+            "x-data-threescale-name": "user_keys"
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id of Member",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Member Details response",
+            "schema": {
+              "$ref": "#/definitions/MemberDetails"
+            }
+          },
+          "403": {
+            "description": "Authentication failed",
+            "schema": {
+              "$ref": "#/definitions/AuthenticationFailed"
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "MemberDetails": {
+      "type": "object"
+    },
+    "AuthenticationFailed": {
+      "type": "object"
+    },
+    "Error": {
+      "type": "object"
+    }
+  }
+}
