@@ -9,3 +9,7 @@ In this article, we highlight and demonstrate a solution that can be deployed on
 We walk through creating a working example whose end result is a searchable catalog that resembles the following - though for simplicity we just add the member element:
 ![1-api-catalog](https://access.redhat.com/sites/default/files/images/1-api-catalog.png)  
 
+## Pre-requisites
+There are 2 simple prerequisites to implement this solution. 
+* To implement the first part of this workshop, you’ll just need a free 3scale account - available at https://www.3scale.net/signup/. You will be given a 3scale administration URL, something like: **https://<my-3scale-account>-admin.3scale.net**
+* A Github account.
