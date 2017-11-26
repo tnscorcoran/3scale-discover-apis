@@ -51,9 +51,13 @@ https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
     * Tags. These are strings that when entered in the Search box should return your API.
     * Swagger URL. Dev Portal host followed by /swagger/spec/<oas spec system name>.json, e.g. **https://<my-3scale-account>.3scale.net/swagger/spec/members.json**  
 
-Save then Publish.
+  Save then Publish.  
 
+* Test out the catalog
+  * Go to your API List screen and select Preview at the bottom of the code text box (not shown in image).
+    !(preview-apilist)[https://access.redhat.com/sites/default/files/images/10-apilist-view-1.png]  
 
+We only have 1 entry in our catalog, our Members API, so searching is superfluous. However if we had multiple APIs, as shown in the example catalog in the Introduction above, we could search on the keywords we entered in that section of apis.json.
 
 
 
