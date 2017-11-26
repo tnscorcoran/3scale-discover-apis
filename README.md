@@ -33,6 +33,15 @@ https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
   * [apis.json](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apis.json) (a JSON spec containing various details on each API )
   * [image for Members API](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/member.jpeg) (image that will appear on the catalog)  
 
+* Upload the 4 files to your 3scale CMS as described in more detail on the [3scale repository](https://github.com/3scale/3scale-discover-APIs):
+  * Member's image: Fill in as follows
+    ![memberpage](https://access.redhat.com/sites/default/files/images/6-member.png)
+  * apidetails. This contains the details of each API when you drill into it. Fill in as follows. Note to click Liquid Enabled: Fill in as follows
+    ![api-details](https://access.redhat.com/sites/default/files/images/4-api-details.png)
+  * apilist. This is the catalog overview page - which draws its individual catalog entries from apis.json below. Fill in as follows:
+    ![apilist](https://access.redhat.com/sites/default/files/images/5-apilist.png)
+  * apis.json. Fill in as follows (note empty Layout):
+    ![apis.json](https://access.redhat.com/sites/default/files/images/7-1-apis.json_.png)
 
 
 
