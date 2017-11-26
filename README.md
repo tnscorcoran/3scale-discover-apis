@@ -13,3 +13,31 @@ We walk through creating a working example whose end result is a searchable cata
 There are 2 simple prerequisites to implement this solution. 
 * To implement the first part of this workshop, you’ll just need a free 3scale account - available at https://www.3scale.net/signup/. You will be given a 3scale administration URL, something like: **https://<my-3scale-account>-admin.3scale.net**
 * A Github account.
+
+## Implementation
+We take the approach of building on the [3scale repository](https://github.com/3scale/3scale-discover-APIs), walking through the end-to-end steps to add a Members API to a new Catalog which we’ll expose on the 3scale [Developer Portal](https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/developer_portal/).
+Go ahead and execute the following steps:
+* Upload your OAS (i.e. Swagger) JSON specification to your 3scale account. There are 3 ways to do this:
+1. Copy the specification into the Active Docs section of the 3scale Administration Portal. It’s done by Creating a new spec here:
+https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
+![active-docs](https://access.redhat.com/sites/default/files/images/2-active-docs.png)  
+2. This can also be done using the ActiveDocs Spec Create endpoint in your 3scale API: **https://<my-3scale-account>-admin.3scale.net/p/admin/api_docs#/account_management_api**
+![api](https://access.redhat.com/sites/default/files/images/3-3scale-api-menu.png)  
+3. This can also be doing using the Import Active Docs section of the [3scale CLI](https://github.com/3scale/3scale-cli/blob/master/docs/import-api-definition.md)
+
+For convenience I have created a prepopulated one for our Members API [here](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/members-oas-spec.json). This is useful for illustration but to actually use it for API calls, you’ll need to update the spec as described in [API Documentation](https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/api_documentation/)  
+
+* Download the preconfigured versions of the 4 files required to build the API catalog which I placed in my [github repository](https://github.com/tnscorcoran/3scale-discover-apis):
+
+
+
+
+
+
+
+
+
+
+![](https://access.redhat.com/sites/default/files/images/4-api-details.png)
+
+
