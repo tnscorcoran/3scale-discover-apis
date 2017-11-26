@@ -25,7 +25,7 @@ https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
 ![api](https://access.redhat.com/sites/default/files/images/3-3scale-api-menu.png)  
   * This can also be doing using the Import Active Docs section of the [3scale CLI](https://github.com/3scale/3scale-cli/blob/master/docs/import-api-definition.md)
 
-For convenience I have created a prepopulated one for our Members API [here](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/members-oas-spec.json). This is useful for illustration but to actually use it for API calls, you’ll need to update the spec as described in [API Documentation](https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/api_documentation/)  
+  For convenience I have created a prepopulated one for our Members API [here](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/members-oas-spec.json). This is useful for illustration but to actually use it for API calls, you’ll need to update the spec as described in [API Documentation](https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/api_documentation/)  
 
 * Download the preconfigured versions of the 4 files required to build the API catalog which I placed in my [github repository](https://github.com/tnscorcoran/3scale-discover-apis):
 
