@@ -44,7 +44,13 @@ https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
     ![apis.json](https://access.redhat.com/sites/default/files/images/7-1-apis.json_.png)
   * This contains the details **inside apis.json** for each catalog entry - normally an API. The highlighted area should be repeated per API:
     ![apis.json-json](https://access.redhat.com/sites/default/files/images/7-2-apis.json-json-view.png)
-
+    Make your substitutions into the red highlighted elements:
+    * Service ID. Get this under your APIs menu:
+      ![serviceid](https://access.redhat.com/sites/default/files/images/9-service-id.png)
+    * Swagger System name. Same as you entered creating your OAS spec in the first Implementation step above, i.e. member Catalog image for this API you created previous - something like: **https://<my-3scale-account>.3scale.net/images/member** (Note omission of -admin as it’s a Dev Portal asset)
+    * Tags. These are strings that when entered in the Search box should return your API.
+    * Swagger URL. Dev Portal host followed by /swagger/spec/<oas spec system name>.json, e.g. https://<my-3scale-account>.3scale.net/swagger/spec/members.json
+Save then Publish.
 
 
 
