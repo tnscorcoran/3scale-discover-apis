@@ -31,7 +31,7 @@ https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
   * [apidetails](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apidetails)
   * [apilist](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apilist)
   * [apis.json](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apis.json)
-  * [image for Members API](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/member.jpeg)
+  * [image for Members API](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/member.jpeg)  
   These files represent 
   * the Documentation added per API, 
   * the Catalog page itself, 
