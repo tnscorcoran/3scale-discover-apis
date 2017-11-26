@@ -18,12 +18,12 @@ There are 2 simple prerequisites to implement this solution.
 We take the approach of building on the [3scale repository](https://github.com/3scale/3scale-discover-APIs), walking through the end-to-end steps to add a Members API to a new Catalog which we’ll expose on the 3scale [Developer Portal](https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/developer_portal/).
 Go ahead and execute the following steps:
 * Upload your OAS (i.e. Swagger) JSON specification to your 3scale account. There are 3 ways to do this:
-1. Copy the specification into the Active Docs section of the 3scale Administration Portal. It’s done by Creating a new spec here:
+  * Copy the specification into the Active Docs section of the 3scale Administration Portal. It’s done by Creating a new spec here:
 https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
 ![active-docs](https://access.redhat.com/sites/default/files/images/2-active-docs.png)  
-2. This can also be done using the ActiveDocs Spec Create endpoint in your 3scale API: **https://<my-3scale-account>-admin.3scale.net/p/admin/api_docs#/account_management_api**
+  * This can also be done using the ActiveDocs Spec Create endpoint in your 3scale API: **https://<my-3scale-account>-admin.3scale.net/p/admin/api_docs#/account_management_api**
 ![api](https://access.redhat.com/sites/default/files/images/3-3scale-api-menu.png)  
-3. This can also be doing using the Import Active Docs section of the [3scale CLI](https://github.com/3scale/3scale-cli/blob/master/docs/import-api-definition.md)
+  * This can also be doing using the Import Active Docs section of the [3scale CLI](https://github.com/3scale/3scale-cli/blob/master/docs/import-api-definition.md)
 
 For convenience I have created a prepopulated one for our Members API [here](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/members-oas-spec.json). This is useful for illustration but to actually use it for API calls, you’ll need to update the spec as described in [API Documentation](https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/api_documentation/)  
 
