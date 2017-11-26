@@ -28,15 +28,11 @@ https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
   For convenience I have created a prepopulated one for our Members API [here](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/members-oas-spec.json). This is useful for illustration but to actually use it for API calls, you’ll need to update the spec as described in [API Documentation](https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/api_documentation/)  
 
 * Download the preconfigured versions of the 4 files required to build the API catalog which I placed in my [github repository](https://github.com/tnscorcoran/3scale-discover-apis):
-  * [apidetails](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apidetails)
-  * [apilist](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apilist)
-  * [apis.json](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apis.json)
-  * [image for Members API](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/member.jpeg)  
-  These files represent 
-  * the Documentation added per API, 
-  * the Catalog page itself, 
-  * a JSON spec containing various details on each API 
-  * an image for our Members API that will appear on the catalog
+  * [apidetails](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apidetails) (the Documentation added per API)
+  * [apilist](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apilist) (the Catalog page itself)
+  * [apis.json](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/apis.json) (a JSON spec containing various details on each API )
+  * [image for Members API](https://github.com/tnscorcoran/3scale-discover-apis/blob/master/member.jpeg) (image that will appear on the catalog)  
+
 
 
 
