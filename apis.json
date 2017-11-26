@@ -1,0 +1,191 @@
+{
+  "name": "Demo APIs",
+  "description": "This is an inventory of APIs available as part of the Demo API Catalog.",
+  "image": "http://i.imgur.com/ntV92b4.png",
+  "tags": [
+    "Telecommunications",
+    "Communications"
+  ],
+  "created": "2017-02-22",
+  "modified": "2017-02-22",
+  "url": "https://soap-fuse-rhsso-demo.3scale.net/apis.json",
+  "specificationVersion": "0.14",
+  "apis": [
+    {
+      "name": "SMS API",
+      "description": "Short Message Service (SMS) is a text messaging service component of most telephone, World Wide Web, and mobile telephony systems. It uses standardized communication protocols to enable mobile phone devices to exchange short text messages. We provide an API for it to let you send SMS to your customers.",
+      "X-3scale": {
+        "service_id": 2555417738892,
+        "swagger_system_name": "sms-api"
+      },
+      "image": "https://enterprisedemo.3scale.net/images/SMS.png",
+      "humanURL": "https://redhat.com/",
+      "baseURL": "http://redhat.com",
+      "tags": [
+        "sms",
+        "text"
+      ],
+      "properties": [
+        {
+          "type": "X-signup",
+          "url": "https://redhat.com/"
+        },
+        {
+          "type": "Swagger",
+          "url": "https://soap-fuse-rhsso-demo.3scale.net/swagger/spec/sms-api.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "Demo",
+          "email": "info@redhat.com",
+          "X-twitter": "redhat"
+        }
+      ]
+    },
+    {
+      "name": "Broadband API",
+      "description": "A high-capacity transmission technique using a wide range of frequencies, which enables a large number of messages to be communicated simultaneously.",
+      "X-3scale": {
+        "service_id": 2555417739327,
+        "swagger_system_name": "broadband-api"
+      },
+      "image": "https://enterprisedemo.3scale.net/images/broadband.jpg",
+      "humanURL": "http://www.redhat.com",
+      "baseURL": "http://www.redhat.com",
+      "tags": [
+        "broadband"
+      ],
+      "properties": [
+        {
+          "type": "X-signup",
+          "url": "https://redhat.com"
+        },
+        {
+          "type": "Swagger",
+          "url": "https://soap-fuse-rhsso-demo.3scale.net/swagger/spec/broadband-api.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "Demo",
+          "email": "info@redhat.com",
+          "X-twitter": "redhat"
+        }
+      ]
+    },
+    {
+      "name": "Fuse SOAP to REST Currency Conversion API",
+      "description": "The Red Hat Fuse Middleware components can quickly and easily transform legacy SOAP APIs to RESTful JSON APIs making them more lightweight and easily consumable by mobile and other devices and clinets.",
+      "X-3scale": {
+        "service_id": 2555417738882,
+        "swagger_system_name": "fuse-soap-to-rest-currency-exchange-rate-api"
+      },
+      "image": "https://enterprisedemo.3scale.net/images/transform.png",
+      "humanURL": "http://www.redhat.com",
+      "baseURL": "http://www.redhat.com",
+      "tags": [
+        "fuse",
+        "transform",
+        "rest",
+        "soap",
+        "currency",
+        "converter",
+        "soap to rest"
+      ],
+      "properties": [
+        {
+          "type": "X-signup",
+          "url": "https://redhat.com"
+        },
+        {
+          "type": "Swagger",
+          "url": "https://soap-fuse-rhsso-demo.3scale.net/swagger/spec/fuse-soap-to-rest-currency-exchange-rate-api.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "Demo",
+          "email": "info@redhat.com",
+          "X-twitter": "redhat"
+        }
+      ]
+    },
+    {
+      "name": "SOAP Currency Converter API",
+      "description": "Legacy SOAP API that converts between currencies. It's returns the exchange rate.",
+      "X-3scale": {
+        "service_id": 2555417739323,
+        "swagger_system_name": "soap-currency-converter-api"
+      },
+      "image": "https://enterprisedemo.3scale.net/images/currency-converter.jpg",
+      "humanURL": "http://www.redhat.com",
+      "baseURL": "http://www.redhat.com",
+      "tags": [
+        "soap",
+        "currency",
+        "converter"
+      ],
+      "properties": [
+        {
+          "type": "X-signup",
+          "url": "https://redhat.com"
+        },
+        {
+          "type": "Swagger",
+          "url": "https://soap-fuse-rhsso-demo.3scale.net/swagger/spec/soap-currency-converter-api.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "Demo",
+          "email": "info@redhat.com",
+          "X-twitter": "redhat"
+        }
+      ]
+    },
+    {
+      "name": "SOAP Geo-Location API",
+      "description": "Legacy SOAP API that returns Geo Location data from an IP Address passed in.",
+      "X-3scale": {
+        "service_id": 2555417739322,
+        "swagger_system_name": "soap-geo-location-api"
+      },
+      "image": "https://enterprisedemo.3scale.net/images/geo-location.jpg",
+      "humanURL": "http://www.redhat.com",
+      "baseURL": "http://www.redhat.com",
+      "tags": [
+        "soap",
+        "Geo-Location",
+        "Geo",
+        "Location",
+        "IP"
+      ],
+      "properties": [
+        {
+          "type": "X-signup",
+          "url": "https://redhat.com"
+        },
+        {
+          "type": "Swagger",
+          "url": "https://soap-fuse-rhsso-demo.3scale.net/swagger/spec/soap-geo-location-api.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "Demo",
+          "email": "info@redhat.com",
+          "X-twitter": "redhat"
+        }
+      ]
+    }
+  ],
+  "include": [],
+  "maintainers": [
+    {
+      "FN": "Demo",
+      "email": "info@redhat.com",
+      "X-twitter": "redhat"
+    }
+  ]
+}
