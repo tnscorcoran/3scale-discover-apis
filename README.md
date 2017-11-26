@@ -50,6 +50,7 @@ https://<my-3scale-account>-admin.3scale.net/admin/api_docs/services
     * Swagger System name. Same as you entered creating your OAS spec in the first Implementation step above, i.e. member Catalog image for this API you created previous - something like: **https://<my-3scale-account>.3scale.net/images/member** (Note omission of -admin as it’s a Dev Portal asset)
     * Tags. These are strings that when entered in the Search box should return your API.
     * Swagger URL. Dev Portal host followed by /swagger/spec/<oas spec system name>.json, e.g. **https://<my-3scale-account>.3scale.net/swagger/spec/members.json**  
+
 Save then Publish.
 
 
